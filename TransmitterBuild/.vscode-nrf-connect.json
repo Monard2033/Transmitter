@@ -1,0 +1,23 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\0b393f9e1b",
+  "sdkPath": "c:\\ncs\\v3.0.2",
+  "board": "nrf52840dk/nrf52840",
+  "boardDir": "c:\\ncs\\v3.0.2\\zephyr\\boards\\nordic\\nrf52840dk",
+  "boardDirs": [
+    "c:\\ncs\\v3.0.2\\zephyr\\boards\\nordic\\nrf52840dk"
+  ],
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj.conf"
+  ],
+  "buildDirectory": "TransmitterBuild",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [
+    "nice_nano_v2.overlay"
+  ],
+  "extraDtcOverlays": [
+    "nice_nano_v2.overlay"
+  ]
+}

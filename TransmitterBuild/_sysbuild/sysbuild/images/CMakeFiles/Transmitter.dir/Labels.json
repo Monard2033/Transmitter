@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter-complete.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-build.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-configure.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-download.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-install.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-mkdir.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-patch.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Transmitter"
+		],
+		"name" : "Transmitter"
+	}
+}

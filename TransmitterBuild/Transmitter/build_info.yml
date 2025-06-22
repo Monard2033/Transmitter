@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: C:/ncs/v3.0.2/myproject/Transmitter
+    source-dir: C:/ncs/v3.0.2/myproject/Transmitter
+  board:
+    name: nrf52840dk
+    path:
+     - C:/ncs/v3.0.2/zephyr/boards/nordic/nrf52840dk
+    qualifiers: nrf52840
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/ncs/v3.0.2/nrf/dts/bindings
+     - C:/ncs/v3.0.2/zephyr/dts/bindings
+    extra-user-files:
+     - nice_nano_v2.overlay
+    files:
+     - C:/ncs/v3.0.2/zephyr/boards/nordic/nrf52840dk/nrf52840dk_nrf52840.dts
+     - nice_nano_v2.overlay
+     - nice_nano_v2.overlay
+    include-dirs:
+     - C:/ncs/v3.0.2/nrf/include
+     - C:/ncs/v3.0.2/nrf/dts/common
+     - C:/ncs/v3.0.2/nrf/dts/riscv
+     - C:/ncs/v3.0.2/nrf/dts/arm
+     - C:/ncs/v3.0.2/nrf/dts
+     - C:/ncs/v3.0.2/zephyr/include
+     - C:/ncs/v3.0.2/zephyr/include/zephyr
+     - C:/ncs/v3.0.2/zephyr/dts/common
+     - C:/ncs/v3.0.2/zephyr/dts/x86
+     - C:/ncs/v3.0.2/zephyr/dts/xtensa
+     - C:/ncs/v3.0.2/zephyr/dts/sparc
+     - C:/ncs/v3.0.2/zephyr/dts/riscv
+     - C:/ncs/v3.0.2/zephyr/dts/posix
+     - C:/ncs/v3.0.2/zephyr/dts/nios2
+     - C:/ncs/v3.0.2/zephyr/dts/arm64
+     - C:/ncs/v3.0.2/zephyr/dts/arm
+     - C:/ncs/v3.0.2/zephyr/dts/arc
+     - C:/ncs/v3.0.2/zephyr/dts
+    user-files:
+     - nice_nano_v2.overlay
+  kconfig:
+    files:
+     - C:/ncs/v3.0.2/zephyr/boards/nordic/nrf52840dk/nrf52840dk_nrf52840_defconfig
+     - C:/ncs/v3.0.2/myproject/Transmitter/prj.conf
+     - C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/Transmitter/zephyr/.config.sysbuild
+    user-files:
+     - prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/ncs/toolchains/0b393f9e1b/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: C:/ncs/v3.0.2/modules/hal/nordic/nrfx/mdk/nrf52840.svd
+  zephyr:
+    version: 4.0.99
+    zephyr-base: C:/ncs/v3.0.2/zephyr
+version: 0.1.0

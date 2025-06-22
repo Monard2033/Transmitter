@@ -1,0 +1,7 @@
+default: Transmitter
+build_dir: C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild
+domains:
+  - name: Transmitter
+    build_dir: C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/Transmitter
+flash_order:
+  - Transmitter

@@ -1,0 +1,57 @@
+/ {
+    /* Define custom GPIO nodes for inputs */
+    custom_gpios {
+        compatible = "gpio-keys";
+
+        datapluspin: datapluspin_0 {
+            gpios = <&gpio0 20 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+            label = "Data Plus Pin";
+        };
+
+        dataminuspin: dataminuspin_0 {
+            gpios = <&gpio0 22 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+            label = "Data Minus Pin";
+        };
+
+        spdtswitchpin: spdtswitchpin_0 {
+            gpios = <&gpio0 17 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+            label = "SPDT Power Switch";
+        };
+    };
+
+    /* Define LEDs using the standard gpio-leds compatible */
+    leds {
+        compatible = "gpio-leds";
+        ledred: ledred_0 {
+            gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+            label = "Red LED";
+        };
+        ledgreen: ledgreen_0 {
+            gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
+            label = "Green LED";
+        };
+        ledblue: ledblue_0 {
+            gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
+            label = "Blue LED";
+        };
+    };
+
+    /* Define aliases to refer to the nodes above */
+    aliases {
+        datapluspin = &datapluspin;
+        dataminuspin = &dataminuspin;
+        spdtswitchpin = &spdtswitchpin;
+        ledred = &ledred;
+        ledgreen = &ledgreen;
+        ledblue = &ledblue;
+    };
+};
+
+/* Ensure both GPIO controllers are enabled */
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
+};

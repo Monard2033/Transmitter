@@ -1,0 +1,13 @@
+# Target labels
+ Transmitter
+# Source files and their labels
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/CMakeFiles/Transmitter-complete.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-build.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-configure.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-download.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-install.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-mkdir.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-patch.rule
+C:/ncs/v3.0.2/myproject/Transmitter/TransmitterBuild/_sysbuild/sysbuild/images/Transmitter-prefix/src/Transmitter-stamp/Transmitter-update.rule
